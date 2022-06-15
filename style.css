@@ -1,4 +1,7 @@
+.link{
 
+  text-align: center;
+}
 .container {
   display: flex;
   width: 70%;
@@ -41,7 +44,7 @@ h2 {
   background-color: hsl(179, 100%, 13%);
 }
  button {
-  margin-top: 15%;
+  margin-top: 10%;
   width: 115px;
   height: 40px;
   border-radius: 50px;
