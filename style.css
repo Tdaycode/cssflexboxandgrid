@@ -1,0 +1,74 @@
+
+.container {
+  display: flex;
+  width: 70%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 25%;
+  margin-top: 6%;
+}
+.container > div {
+  height: 100%; 
+  flex: 1;
+}
+.sedans {
+  background-color:hsl(31, 77%, 52%);
+
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+h2 {
+  color:hsl(0, 0%, 95%);
+}
+.inner-sedan {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 15px;
+}
+
+.suvs {
+  background-color:hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+ button {
+  margin-top: 20%;
+  width: 115px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color:  hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  font-weight:large;
+
+}
+button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%) ;
+  cursor: pointer;
+}
+
+.sedan-btn-container {
+  color: hsl(31, 77%, 52%);
+}
+.sedan-btn-container:hover {
+  background-color:hsl(31, 77%, 52%) ;
+  color: hsl(0, 0%, 95%);
+}
+.luxury-btn-container {
+  color: hsl(179, 100%, 13%);
+}
+.luxury-btn-container:hover {
+  background-color:hsl(179, 100%, 13%) ;
+  color: hsl(0, 0%, 95%);
+}
