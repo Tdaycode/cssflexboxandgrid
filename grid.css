@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 50px 50px;
+  grid-gap: 3px;
+}
+.col-1 {
+  background-color: rgb(228, 81, 13);
+
+}
+.col-2 {
+  background-color: rgb(200, 139, 35);
+  
+}
+.col-3 {
+  background-color: green;
+  
+}
+.col-4 {
+  background-color: rgb(55, 127, 172);
+  
+}
+.col-5 {
+  background-color: rgb(55, 127, 172);
+  
+}
+
