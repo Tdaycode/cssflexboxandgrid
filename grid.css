@@ -29,7 +29,7 @@ main {
     padding: 10px;
     display: grid;
     gap: 10px;
-    grid-template-columns: 175px 75px 125px;
+    grid-template-columns: 170px 75px 125px;
     grid-template-rows: 125px 70px 80px;
     grid-template-areas: 	"orange orange yellow"
                             "green blue blue"
